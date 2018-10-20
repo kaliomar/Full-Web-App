@@ -4,7 +4,7 @@ var Comment = require("./models/comments");
 
 var data = [
   {
-    name:"Omar",
+    name:"dida",
     age:"20",
     gender:"male",
     image:"https://images.pexels.com/photos/936133/pexels-photo-936133.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
