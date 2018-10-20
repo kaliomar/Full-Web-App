@@ -15,7 +15,6 @@ var commentsRoutes = require("./routes/comments"),
 		memberRoutes   = require("./routes/members"),
 		indexRoutes    = require("./routes/index");
 
-// mongoose.connect("mongodb://127.0.0.1/member", {useNewUrlParser:true});
 mongoose.connect(process.env.DATABASEURL, {useNewUrlParser:true});
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
