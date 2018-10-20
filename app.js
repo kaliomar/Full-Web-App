@@ -15,7 +15,8 @@ var commentsRoutes = require("./routes/comments"),
 		memberRoutes   = require("./routes/members"),
 		indexRoutes    = require("./routes/index");
 
-mongoose.connect("mongodb://127.0.0.1/member", {useNewUrlParser:true});
+// mongoose.connect("mongodb://127.0.0.1/member", {useNewUrlParser:true});
+mongoose.connect("mongodb://kaliomar:tasnimomar89@ds137263.mlab.com:37263/members", {useNewUrlParser:true});
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.use(methodOverride("_method"));
