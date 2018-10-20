@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #000
+}
+.head{
+  margin-bottom: 50px;
+  margin-left:20px;
+}
+
+p a {
+  color:white;
+  text-decoration: none;
+}
+
+p a:hover {
+  color:white;
+  text-decoration: none;
+}
+
+p strong a {
+  color:blue;
+}
+
+p strong a:hover {
+  color:blue;
+}
+
+.alert{
+  padding: 3px;
+}

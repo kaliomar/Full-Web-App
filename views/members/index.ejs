@@ -1,0 +1,25 @@
+<% include ../partials/header%>
+    <div class="container">
+        <div class="head">
+            <h1>MEMBERS</h1>
+            <p class="btn btn-primary btn-xs"><a href="/members/new">Add new member</a></p>
+        </div>
+        <div class="container">
+            <div class="row" style="display: flex; flex-wrap: wrap">
+                <% member.forEach(function(memo){ %>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="thumbnail">
+                            <img src="<%=memo.image%>">
+                            <div class="caption-full">
+                                <h3 class="text-center">
+                                    <a href="/members/<%=memo._id%>" "><%=memo.name%></a></h3>
+                </div>
+              </div>
+            </div>
+          <% }) %>
+      </div>
+    </div>
+  </div>
+
+
+<% include ../partials/footer%>
